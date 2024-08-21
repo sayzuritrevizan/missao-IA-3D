@@ -65,7 +65,6 @@ const perguntas = [
         ]
     },
 ];
-
 let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
@@ -103,4 +102,5 @@ function mostraResultado(){
     caixaAlternativas.textContent = ""; 
 }
 
+function aleatorio(){}
 mostraPergunta();
