@@ -1,18 +1,19 @@
 export const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você pratica esportes",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
+                    "qual esporte você gosta",
+                    ""
+                    ],
+                proxoma: 1,
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "não",
                 afirmacao: [
-                    "afirmacao 1",
+                    "por qual motivo voce nao pratica",
                     "afirmacao 2"
                     ]
             }          
@@ -20,17 +21,17 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "voce acha importante essa pratica diaria",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"sim",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "nao",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
