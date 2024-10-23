@@ -34,9 +34,9 @@ export const perguntas = [
                     "uma pena...tente colocar isso na seu dia a dia."
                 ],
                 proxima: 2,  // Direciona para a pergunta 3
-          
- ]
-            },
+            }
         ]
-    }
+    },
 ];
+ 
+           
